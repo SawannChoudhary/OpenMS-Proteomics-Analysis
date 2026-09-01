@@ -1,0 +1,34 @@
+# Raw mass spectrometry data
+*.RAW
+*.raw
+
+# Converted mass spectrometry data
+*.mzML
+*.mzML.gz
+
+# OpenMS intermediate files
+*.idXML
+*.featureXML
+
+# OpenMS generated database indices
+*.canno
+*.cnlcp
+*.csarr
+*.cseq
+
+# Raw/intermediate data directories
+raw/
+mzML/
+db/
+
+# Local environments
+.conda/
+.mamba/
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
